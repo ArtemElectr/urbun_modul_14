@@ -11,7 +11,7 @@ list_products = get_all_products()
 list_photo = ['files/shutterstock_71010697.0.jpeg', 'files/8dbf5ae4fdff321c612627522b4efba2.jpg',
               'files/Сок-ананасовый-свежевыжатый.jpg', 'files/tomatnyy-sok.jpeg']
 
-api = '8139003933:AAGYQqobCCfo12tNfBU9kwwI9-o0AdrLBBU'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
